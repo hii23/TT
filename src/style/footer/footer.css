@@ -1,0 +1,136 @@
+.footer {
+    margin-top: 64px;
+    min-height: 410px;
+    background-color: #081D31;
+    padding: 64px 0 48px 0;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: 350px 170px 170px 170px 170px;
+    gap: 24px;
+    grid-template-areas: 'logo about-us service partners follow';
+}
+
+.footer__logo {
+    grid-area: logo;
+}
+
+.footer__about-us {
+    grid-area: about-us;
+}
+
+.footer__service {
+    grid-area: service;
+}
+
+.footer__partners {
+    grid-area: partners;
+}
+
+.footer__follow {
+    grid-area: follow;
+}
+
+.footer__logo img {
+    margin-bottom: 10px;
+}
+
+.footer__descr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+h3 {
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer__link {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.footer__follow img {
+    margin: 0 24px 10px 0;
+}
+
+.footer__img-pos {
+    margin-top: 3px;
+}
+
+.footer__hr {
+    border: 1px solid #F8FAFD;
+    margin: 36px 0 32px 0;
+}
+
+.footer__arrow {
+    margin: 6px 32px 0 16px;
+}
+
+.footer__arrow_cont {
+    display: none;
+}
+
+.footer__sub-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-areas:
+            'lang ser . inter'
+            'year year . safe';
+
+}
+
+.footer__lang {
+    grid-area: lang;
+}
+
+.footer__lang p {
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer__ser {
+    grid-area: ser;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer__year {
+    grid-area: year;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer__inter {
+    grid-area: inter;
+    text-align: right;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.footer__safe {
+    grid-area: safe;
+    display: flex;
+    justify-content: space-between;
+}

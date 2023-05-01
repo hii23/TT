@@ -1,0 +1,73 @@
+@import './nullStyle.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import "header/headerStyle.css";
+@import "leftPanel/leftPanel.css";
+@import 'formPay/formPay.css';
+@import 'button/button.css';
+@import 'rightPanel/rightPanel.css';
+@import 'footer/footer.css';
+@import 'step/step.css';
+@import 'media.css';
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-container {
+    display: grid;
+    grid-template-columns: 350px 455px 260px;
+    gap: 24px;
+    grid-template-areas: 'left form right';
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1130px) {
+    .body-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-self: center;
+    }
+}
+@media (max-width: 990px) {
+    .body-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                'left form'
+                'right right';
+    }
+}
+@media (max-width: 800px) {
+    .body-container {
+        gap: 0;
+        grid-row-gap: 24px;
+    }
+}
+
+@media (max-width: 650px) {
+    .body-container {
+        grid-template-columns: 1fr 350px  1fr;
+    }
+    .body-container {
+        grid-template-areas:
+                '. form .'
+                '. left .'
+                'right right right';
+    }
+}
+
+@media (max-width: 450px) {
+    .body-container {
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+                'form'
+                'left'
+                'right';
+    }
+}

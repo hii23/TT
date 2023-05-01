@@ -1,0 +1,18 @@
+.step {
+    margin-top: 16px;
+}
+
+.container__step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.step hr {
+    flex-grow: 1;
+    border: 1px solid #ABC7EC;
+    margin: 0 16px;
+}
+

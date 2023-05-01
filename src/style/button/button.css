@@ -1,0 +1,54 @@
+.btn {
+    width: 405px;
+    border-radius: 4px;
+}
+
+.btn__apple {
+    background: #081D31;
+    height: 48px;
+    margin: 24px 0 20px 0;
+}
+
+.btn__apple:hover {
+    background: #17324D
+}
+
+.btn__apple:active {
+    background: #041524;
+}
+
+.btn__submit {
+    background: #2F80ED;
+    height: 54px;
+    margin: 16px 0 24px 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.btn__submit:hover {
+    background: #1968D2;
+}
+
+.btn__submit:active {
+    background: #1658B1;
+}
+
+.btn__pal {
+    background: #FFFFFF;
+    border: 1px solid #D3E2F9;
+    border-radius: 4px;
+    height: 44px;
+    margin: 8px 0;
+}
+
+.btn__pal:active {
+    background: #F8FAFD;
+    border: 1px solid #CDE4F9;
+}
+
+.btn__pal:hover {
+    border: 1px solid #CDE4F9;
+}

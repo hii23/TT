@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test task</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+      <img class="header__img" src="./icons/Logo.svg" alt="logo">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="container container__step">
+      <img src="./icons/step.svg" alt="step">
+      <hr>
+      <img src="./icons/step.svg" alt="step">
+      <hr>
+      <img src="./icons/step.svg" alt="step">
+      <hr>
+      <img src="./icons/step4.svg" alt="step4">
+    </div>
+  </div>
+
+  <div class="body-container container">
+    <div class="left-panel">
+      <div class="left-panel__img">
+        <img src="./icons/leftPanel/mainLogo.svg">
+      </div>
+      <div class="left-panel__features">
+        <div class="left-panel__text">
+          You get all these features:
+        </div>
+        <ul class="left-panel__table">
+          <li>
+            <img src="./icons/leftPanel/ic/Like.svg" alt="like">
+            <p>Feature 1</p>
+          </li>
+          <li>
+            <div class="left-panel__icons">
+              <img src="./icons/leftPanel/social/wechat.svg" alt="wechat">
+              <img src="./icons/leftPanel/social/skype.svg" alt="skype">
+              <img src="./icons/leftPanel/social/snapchat.svg" alt="snapchat">
+              <img src="./icons/leftPanel/social/vibe.svg" alt="vibe">
+              <img src="./icons/leftPanel/social/youtube.svg" alt="youtube">
+              <img src="./icons/leftPanel/social/facebook.svg" alt="facebook">
+              <img src="./icons/leftPanel/social/tinder.svg" alt="tinder">
+              <img src="./icons/leftPanel/social/tg.svg" alt="tg">
+              <img src="./icons/leftPanel/social/tiktok.svg" alt="tiktok">
+              <img src="./icons/leftPanel/social/zoom.svg" alt="zoom">
+              <img src="./icons/leftPanel/social/line.svg" alt="line">
+              <img src="./icons/leftPanel/social/signal.svg" alt="signal">
+              <img src="./icons/leftPanel/social/kik.svg" alt="kik">
+              <img src="./icons/leftPanel/social/hang.svg" alt="hang">
+              <img src="./icons/leftPanel/social/inst.svg" alt="inst">
+              <img src="./icons/leftPanel/social/redit.svg" alt="redit">
+              <img src="./icons/leftPanel/social/whatsap.svg" alt="whatsap">
+              <img src="./icons/leftPanel/social/mess.svg" alt="mess">
+            </div>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/phone.svg" alt="like">
+            <p>Feature 2</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/kontakt.svg" alt="like">
+            <p>Feature 3</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/sms.svg" alt="like">
+            <p>Feature 4</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/location.svg" alt="like">
+            <p>Feature 5</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/photo.svg" alt="like">
+            <p>Feature 6</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/keyboard.svg" alt="like">
+            <p>Feature 7</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/history.svg" alt="like">
+            <p>Feature 8</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/heart.svg" alt="like">
+            <p>Feature 9</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/email.svg" alt="like">
+            <p>Feature 10</p>
+          </li>
+          <li>
+            <img src="./icons/leftPanel/ic/browser.svg" alt="like">
+            <p>Feature 11</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="form-pay">
+      <h1>Finish your order</h1>
+      <div class="form-pay__descr">
+        <div>
+          <p class="form-pay__text">Plan</p>
+          <p class="form-pay__text">Subscription Period</p>
+          <p class="form-pay__text">1 month price</p>
+        </div>
+        <div>
+          <p class="form-pay__text_right form-pay__text_bold">Full Pack</p>
+          <p class="form-pay__text_right form-pay__text_normal">3 months</p>
+          <p class="form-pay__text_right  form-pay__text_currency">$ 29.99</p>
+        </div>
+      </div>
+
+      <div class="form-pay__form">
+        <div class="form-pay__wrapper">
+          <button class="btn btn__apple">
+            <img src="./icons/form/apple-pay.svg" alt="pay">
+          </button>
+          <div class="form-pay__descr-text">
+            <hr />
+            <p>Or pay with card</p>
+            <hr />
+          </div>
+          <!-- FORM  -->
+          <form id="myForm">
+            <div class="input-container">
+              <p class="form-pay__label">Email</p>
+              <p class="form-pay__label-error hide">Required</p>
+              <div class="input-group">
+                <div class="input-group__before">
+                  <img src="./icons/form/svg/formIconEmail.svg" alt="icon email" />
+                </div>
+                <input type="email" id="email" class="input-group__input" placeholder="examplemail@mail.com" />
+              </div>
+            </div>
+            <div class="input-container">
+              <p class="form-pay__label">Card information</p>
+              <p class="form-pay__label-error hide">Required</p>
+              <div class="input-group t-pt">
+                <div class="input-group__before">
+                  <img src="./icons/form/svg/formIconCard.svg" alt="card" />
+                </div>
+                <input type="text" id="card" class="input-group__input" placeholder="0000 0000 0000 0000"
+                  data-error-group="cardInfo" />
+                <div class="input-group__after">
+                  <img src="./icons/form/svg/mastercardIcon.svg" alt="card" />
+                  <img src="./icons/form/svg/visaIcon.svg" alt="card" />
+                  <img src="./icons/form/svg/americanExpress.svg" alt="card" />
+                  <img src="./icons/form/svg/discoverIcon.svg" alt="card" />
+                </div>
+              </div>
+            </div>
+            <div class="input-container mr-0">
+              <div class="input-group bl-pt">
+                <div class="input-group__before">
+                  <img src="./icons/form/svg/formIconDate.svg" alt="date" />
+                </div>
+                <input type="text" id="date" class="input-group__input " placeholder="MM/YYYY"
+                  data-error-group="cardInfo" />
+              </div>
+              <div class="input-group br-pt">
+                <div class="input-group__before">
+                  <img src="./icons/form/svg/formIconCVV.svg" alt="cvv" />
+                </div>
+                <input type="text" id="cvv" class="input-group__input" placeholder="CVV" data-error-group="cardInfo" />
+              </div>
+            </div>
+            <div class="input-container">
+              <p class="form-pay__label">Name on card</p>
+              <p class="form-pay__label-error hide">Required</p>
+              <div class="input-group">
+                <div class="input-group__before">
+                  <img src="./icons/form/svg/formIconName.svg" alt="name" />
+                </div>
+                <input type="text" id="name" class="input-group__input" placeholder="Enter cardholder name" />
+              </div>
+            </div>
+            <!-- COUPON -->
+            <div class="form-pay__p">
+              <p id="form-pay__coupon">I have a coupon code</p>
+              <div class="input-container hide" id="form-pay__input-coupon">
+                <div class="input-group input-group-coupon">
+                  <input type="text" id="promo" class="input-group__input" placeholder="Enter your promo code" />
+                  <div class="input-group__after-text">
+                    <span class="has-error ">Apply</span>
+                    <img class="hide" src="./icons/form/true.svg" alt="true" />
+                    <img class="hide" src="./icons/form/trash.svg" alt="trash" />
+                  </div>
+                </div>
+                <p class="form-pay__coupon-valid form-pay__coupon-error hide">Invalid coupon code :(</p>
+                <p class="form-pay__coupon-valid hide">Your coupon has been applied</p>
+              </div>
+            </div>
+            <button class="btn btn__submit">Submit order</button>
+          </form>
+
+
+          <div class="form-pay__descr-text">
+            <hr />
+            <p>Or alternative methods</p>
+            <hr />
+          </div>
+
+          <div class="form-pay__cript">
+            <img src="./icons/form/pay.svg" alt="pay" class="form-pay__pay-img">
+            <img class="form-pay__cript_arrow" src="./icons/form/arrow-mini.svg" alt="arrow">
+          </div>
+          <div class="form-pay__cript_open hide">
+            <button class="btn btn__pal">
+              <img src="./icons/form/paypal.svg" alt="paypal">
+            </button>
+            <button class="btn btn__pal">
+              <img src="./icons/form/bit.svg" alt="bit">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-pay__info">
+        <h2>Automatic Renewal: <span>ON</span></h2>
+        <div class="form-pay__cont">
+          <div class="form-pay__info-descr">
+            By clicking “submit order” you agree to
+            <a href="#">Terms of service</a> & <a href="#">Recurring Policy</a> as well as to
+            <a href="#">Refund Policy</a> & <a href="#">Legal Disclaimer</a>.
+          </div>
+          <div class="form-pay__img">
+            <img src="./icons/form/secure/visa.svg" alt="visa">
+            <img src="./icons/form/secure/mastercard.svg" alt="mastercard">
+            <img src="./icons/form/secure/ssl.svg" alt="ssl">
+            <img src="./icons/form/secure/mcafee.svg" alt="mcafee">
+            <img src="./icons/form/secure/norton.svg" alt="norton">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+      Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="./icons/Logo.svg" alt="logo">
+          <div class="footer__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A massa scelerisque venenatis orci urna sed
+            lobortis. Vitae cras augue orci cum scelerisque maecenas risus arcu. Gravida suscipit amet nullam augue vel,
+            non amet pharetra elementum. Leo suspendisse amet condimentum eu gravida eu nisl. Iaculis ac turpis nibh
+            mauris mollis cras faucibus gravida sit.
+          </div>
+        </div>
+        <div class="footer__about-us">
+          <h3>about us</h3>
+          <img class="footer__arrow footer__arrow_cont" src="./icons/arrow.svg" alt="arrow">
+          <a href="#" class="footer__link">Demo</a>
+          <a href="#" class="footer__link">Blog</a>
+          <a href="#" class="footer__link">Features</a>
+          <a href="#" class="footer__link">FAQ</a>
+          <a href="#" class="footer__link">Contact us</a>
+        </div>
+        <div class="footer__service">
+          <h3>service legal terms</h3>
+          <img class="footer__arrow footer__arrow_cont" src="./icons/arrow.svg" alt="arrow">
+          <a href="#" class="footer__link">Eula</a>
+          <a href="#" class="footer__link">refund policy</a>
+          <a href="#" class="footer__link">recurring policy</a>
+          <a href="#" class="footer__link">cookie notice</a>
+          <a href="#" class="footer__link">privacy notice</a>
+        </div>
+        <div class="footer__partners">
+          <h3>Partners</h3>
+          <img class="footer__arrow footer__arrow_cont" src="./icons/arrow.svg" alt="arrow">
+          <a href="#" class="footer__link">affiliate program</a>
+          <a href="#" class="footer__link">reseller program</a>
+        </div>
+        <div class="footer__follow">
+          <h3>Follow us</h3>
+          <img src="./icons/footer/facebook.svg" alt="facebook">
+          <img src="./icons/footer/inst.svg" alt="inst">
+          <img class="footer__img-pos" src="./icons/footer/yt.svg" alt="yt">
+        </div>
+      </div>
+      <hr class="footer__hr" />
+      <div class="footer__sub-content">
+
+        <div class="footer__lang">
+          <p>English</p>
+          <img class="footer__arrow" src="./icons/arrow.svg" alt="arrow">
+        </div>
+        <div class="footer__ser">Terms of service</div>
+        <div class="footer__year">© 2022 LOGO | All Rights Reserved.</div>
+
+        <div class="footer__inter">
+          <p>Secure internet payments</p>
+        </div>
+        <div class="footer__safe">
+          <img src="./icons/footer/safe.svg" alt="safe">
+          <img src="./icons/footer/ssl.svg" alt="ssl">
+          <img src="./icons/footer/dss.svg" alt="dss">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+  <script src="js/validate.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

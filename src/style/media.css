@@ -1,0 +1,258 @@
+@media (max-width: 1130px) {
+    .container {
+        padding: 20px;
+    }
+
+    .form-pay__form {
+        width: 400px;
+    }
+
+    .form-pay__wrapper {
+        width: 350px;
+    }
+
+    .btn {
+        width: 350px;
+    }
+
+    .footer__content {
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    }
+
+    .left-panel__icons {
+        grid-column-gap: 24px;
+    }
+}
+
+@media (max-width: 990px) {
+    .right-panel {
+        margin-top: 0;
+    }
+
+    .footer__content {
+        /* grid-template-columns: 1fr 100px 100px 100px 140px; */
+        gap: 15px;
+    }
+
+    .footer__sub-content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            'lang ser . inter'
+            'year year safe safe';
+
+    }
+
+    .form-pay__descr {
+        width: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    .form-pay__wrapper {
+        width: 300px;
+    }
+
+    .form-pay__descr {
+        width: 350px;
+    }
+
+    .btn {
+        width: 300px;
+    }
+
+    .form-pay__form {
+        width: 350px;
+    }
+
+    .left-panel__img {
+        margin: 35px 15%;
+    }
+
+    .left-panel__icons {
+        grid-template-columns: repeat(4, 24px);
+    }
+
+    .left-panel__text {
+        font-size: 15px;
+    }
+
+    .footer {
+        margin-top: 0;
+        padding: 20px 0;
+    }
+
+    .footer__content {
+        /* grid-template-columns: 1fr 70px 96px 70px 92px; */
+        gap: 25px;
+    }
+
+    .input-group__before {
+        left: 13px;
+    }
+
+    .input-group__after {
+        right: 12px;
+
+    }
+
+    .input-group>input {
+        padding-left: 35px;
+    }
+
+    .input-group-coupon input {
+        padding: 12px 0 12px 10px;
+    }
+
+    .input-group__after>img {
+        margin-right: 2.5px;
+    }
+}
+
+@media (max-width: 650px) {
+    .form-pay__img {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .footer__content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'logo'
+            'about-us'
+            'service'
+            'partners'
+            'follow';
+    }
+
+    .footer__about-us a {
+        display: none;
+    }
+
+    .footer__service a {
+        display: none;
+    }
+
+    .footer__partners a {
+        display: none;
+    }
+
+    h3 {
+        display: inline-block;
+    }
+
+    .footer__follow h3 {
+        display: block;
+    }
+
+    .footer__arrow_cont {
+        display: inline-block;
+    }
+
+    .footer__sub-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'lang'
+            'ser'
+            'inter'
+            'safe'
+            'year';
+    }
+
+    .footer__inter {
+        text-align: left;
+    }
+}
+
+@media (max-width: 450px) {
+    .form-pay__descr {
+        width: 100%;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .form-pay__wrapper {
+        width: 280px;
+    }
+
+    .btn {
+        width: 280px;
+    }
+
+    .form-pay__form {
+        width: 100%;
+    }
+
+    .form-pay__img img {
+        width: 55px;
+        height: 20px;
+    }
+
+    .left-panel__icons {
+        grid-template-columns: repeat(6, 20px);
+        grid-column-gap: 24px;
+    }
+
+    .left-panel__img {
+        display: none;
+    }
+
+    .form-pay__cont {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .form-pay__info-descr {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .left-panel {
+        border: 1px solid #C0D4F3;
+        border-radius: 4px;
+        background: #FFFFFF;
+        padding: 24px 0 8px 16px;
+    }
+
+    .right-panel {
+        background: #FFFFFF;
+        border: 1px solid #C0D4F3;
+        border-radius: 4px;
+        padding: 16px;
+    }
+
+    .hamburger {
+        height: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        cursor: pointer;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #151812;
+    }
+
+    .step hr {
+        margin: 0;
+    }
+
+    .footer__content {
+        gap: 15px;
+    }
+
+    .footer__year {
+        margin: 0 auto;
+    }
+}

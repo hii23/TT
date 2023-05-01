@@ -1,0 +1,315 @@
+.hide {
+    display: none;
+}
+
+.form-pay {
+    grid-area: form;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 32px 0 24px 25%;
+}
+
+.form-pay__descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-pay__descr p {
+    margin-bottom: 13px;
+}
+
+.form-pay__text {
+    font-weight: 300;
+    font-size: 13px;
+    color: #37465D;
+}
+
+.form-pay__text_right {
+    font-size: 15px;
+    color: #081D31;
+    text-align: right;
+}
+
+.form-pay__text_bold {
+    font-weight: 600;
+}
+
+.form-pay__text_normal {
+    font-weight: 400;
+}
+
+.form-pay__text_currency {
+    font-weight: 500;
+    color: #00C4C4;
+}
+
+.form-pay__form {
+    background: #FFFFFF;
+    border: 1px solid #D3E2F9;
+    border-radius: 4px;
+    width: 453px;
+    min-height: 623px;
+}
+
+.form-pay__wrapper {
+    margin: 0 auto;
+    max-width: 405px;
+}
+
+.form-pay__descr-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-pay__descr-text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #89A6D4;
+    margin: 0 16px;
+}
+
+.form-pay__descr-text hr {
+    border: 1px solid #D3E2F9;
+    flex-grow: 1;
+}
+
+#form-pay__coupon {
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #2E3C49;
+}
+
+.form-pay__p {
+    margin-top: 16px;
+}
+
+#form-pay__coupon:hover {
+    color: #2F80ED;
+}
+
+
+.form-pay__label {
+    margin-bottom: 12px;
+    color: #2E3C49;
+    font-size: 12px;
+
+}
+
+.form-pay__label-error {
+    display: block;
+    margin-top: -12px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    color: #EB5757;
+    margin-bottom: 6px;
+}
+
+
+.form-pay__coupon-valid {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #00AE71;
+    margin-bottom: 6px;
+}
+
+.form-pay__coupon-error {
+    color: #EB5757;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.input-group>input {
+    padding: 12px 0 12px 52px;
+    border: 1px solid #D3E2F9;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #081D31;
+    width: 100%;
+}
+
+.input-group-coupon input {
+    padding: 12px 0 12px 10px;
+}
+
+
+.input-group.t-pt>input {
+    border-radius: 4px 4px 0 0;
+    margin-bottom: -1px;
+}
+
+.input-group.bl-pt>input {
+    border-radius: 0 0 0 4px;
+}
+
+.input-group.br-pt>input {
+    border-radius: 0 0 4px 0;
+
+
+}
+
+.input-group>input:focus {
+    outline: none;
+    border-color: #4376A6;
+    z-index: 1;
+}
+
+.input-group>input::placeholder {
+    color: #8D969E;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.input-group__before {
+    position: absolute;
+    left: 17.5px;
+    z-index: 2;
+}
+
+.input-group__after {
+    position: absolute;
+    right: 24px;
+    z-index: 2;
+    display: flex;
+}
+
+.input-group__after-text {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2F80ED;
+    position: absolute;
+    right: 24px;
+    z-index: 2;
+    display: flex;
+    cursor: pointer;
+}
+
+.input-group__after>img {
+    margin-right: 8px;
+    height: 14px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.mr-0 {
+    margin: 0;
+    flex-direction: row;
+}
+
+
+
+
+
+
+.form-pay__cript {
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-pay__cript_arrow {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #37465D;
+    text-align: center;
+    margin: 24px 0 16px 0;
+}
+
+h2 span {
+    font-weight: 500;
+    color: #2F80ED;
+}
+
+.form-pay__info-descr {
+    font-weight: 400;
+    font-size: 12px;
+    color: #37465D;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.form-pay__info-descr a {
+    text-decoration-line: underline;
+    color: #37465D;
+}
+
+.form-pay__img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group.invalid input {
+    border: 1px solid #EB5757;
+}
+
+
+
+.form-pay__cript_arrow {
+    transition: transform 0.3s ease;
+}
+
+.form-pay__cript_arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.form-pay__pay-img {
+    transition: filter 0.3s ease;
+}
+
+.form-pay__pay-img.grayscale {
+    filter: grayscale(1);
+    opacity: 0.2;
+}
+
+#form-pay__coupon {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.input-group__input-error {
+    border: 1px solid red !important;
+    z-index: 1 !important;
+}
+
+.input-group.bl-pt .input-group__input-error {
+    border-right: none !important;
+}
+
+.input-group.br-pt>input {
+    border-radius: 0 0 4px 0;
+}
+
+.has-error {
+    opacity: 0.2;
+}
